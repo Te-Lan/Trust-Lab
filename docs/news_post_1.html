@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News | TRUST Lab</title>
+  <!-- Link to Tailwind output CSS -->
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body class="text-gray-800">
+  <div id="barba-wrapper" data-barba="wrapper">
+    <div class="barba-container" data-barba="container">
+      <header class="w-full">
+        <!-- Top divider: 8px high multi-stop gradient -->
+        <div class="h-2 w-full" style="
+              background: linear-gradient(
+                90deg,
+                #bf165e 0%,
+                #de453d 27%,
+                #e85333 53%,
+                #ffa62a 100%
+              );
+            "></div>
+
+        <!-- White wrapper container -->
+        <!-- Using px-96 and py-50 to match your Figma spacing,
+             plus a gap if you need more spacing between multiple rows 
+             (though we only have one row now). -->
+        <div class="flex w-full flex-col items-start justify-start bg-white px-[96px] py-[2.5rem]">
+          <!-- Row for logo + two-line text -->
+          <div class="flex w-full flex-row items-center gap-[2rem]">
+            <!-- Logo block (placeholder) -->
+            <div class="flex h-20 w-36 items-center justify-center">
+              <img class="block object-contain" src="../src/assets/svg/CityU_logo.svg" alt="CityU Logo" />
+            </div>
+
+            <!-- Text box: first line is h2, second is paragraph for tagline -->
+            <div class="flex flex-col justify-center font-medium font-source-sans">
+              <h2 class="text-3xl leading-none tracking-[-0.01em] text-[#2E2D29]">
+                TRUST Lab
+              </h2>
+              <p class="mt-1 text-lg text-[#2E2D29] leading-none">
+                Trust, Risk, Understanding, Strategies, and Technology
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Navigator container -->
+        <nav class="flex w-full items-center justify-end px-[6rem]"
+          style="background: linear-gradient(90deg,#bf165e 0%, #de453d 27%, #e85333 53%, #ffa62a 100%);">
+          <ul class="flex flex-row items-center font-medium text-[1.125rem]
+            leading-[120%] text-white" style="font-family: 'Source Sans 3', sans-serif">
+            <li class="px-6 py-4 hover:underline"><a href="./index.html">Home</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./people.html">People</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./research.html" class="group-hover:underline">Research</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./research.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust
+                    </div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Risk</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Information Behavior</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Strategic Com & Culture
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./project.html" class="underline group-hover:underline">Project</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./project_post_1.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#2E2D29] underline hover:underline hover:bg-neutral-100 duration-300 ease-in-out">
+                      The 2023 Fukushima Nuclear
+                      Waste Crisis: A Multidisciplinary Research Agenda</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Dynamics of Trust:
+                      Navigating
+                      Institutional Trust in Crisis Contexts</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust in Artificial
+                      Intelligence: Empowering Reliable Autonomous Vehicles and Other AI Technologies</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      COVID-19</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="#" class="group-hover:underline">News & Media Coverage</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./news.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      News</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="./media_coverage.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Media Coverage</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./join_us.html">Join Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!-- Outer Wrapper -->
+        <div class="flex justify-center px-[96px] pt-[90px] pb-[180px] w-full max-w-[1440px] mx-auto">
+
+          <!-- Inner Container -->
+          <div class="flex flex-col items-start gap-[56px] w-[1248px]">
+
+            <!-- Section Title -->
+            <h2 class="text-[32px] leading-[100%] font-bold capitalize text-[#EC5A2E] font-source-sans">
+              News
+            </h2>
+
+            <!-- News Section -->
+            <div class="flex flex-col items-center gap-[36px] w-full">
+
+              <!-- News Header -->
+              <div class="flex flex-col items-start gap-[22px] w-full">
+                <h1 class="text-[48px] font-semibold text-[#2E2D29] font-source-sans leading-[105%]">
+                  Director Huang Visited The School of Journalism and Communication at Peking University
+                </h1>
+                <p class="text-[21px] font-medium text-[#EC5A2E] font-source-sans leading-[140%]">
+                  September 24, 2024
+                </p>
+                <hr class="w-full border-t border-[#C2C2C2]" />
+              </div>
+
+              <!-- News Block: Repeating Group -->
+              <div class="flex flex-col items-center w-full px-48 space-y-12">
+
+                <!-- Image + Paragraph 1 -->
+                <p
+                  class=" text-xl justify-self-stretch font-normal text-[#403F3F] font-source-sans leading-normal first-letter:text-5xl first-letter:font-semibold first-letter:float-left first-letter:mr-2 first-letter:leading-[100%] first-letter:text-[#403F3F]">
+                  On April 15, Professor Huang Yihui, Chair and Chair Professor of the Department of Media and
+                  Communication
+                  at City University of Hong Kong, visited the School of Journalism and Communication at Peking
+                  University
+                  for an exchange. The meeting was attended by Dean Chen Gang, Party Secretary Tang Jinnan, Vice Deans
+                  Chen
+                  Kaihe and Wang Weijia, as well as Xu Jing, the program leader of the Master's in Health Communication.
+                  Both parties held an in-depth discussion on cooperation in areas such as academic development, talent
+                  cultivation, and exchange visits.
+                </p>
+
+                <!-- Image + Paragraph 2 -->
+                <div class="flex justify-center items-center w-full px-16">
+                  <img src="../src/assets/images/news_post_1/01.webp" class="w-full inset-0 object-cover" alt="">
+                </div>
+                <p class=" text-xl font-normal text-[#403F3F] font-source-sans leading-normal">
+                  Dean Chen Gang warmly welcomed the visit of Professor Huang Yihui, Chair of the Department. Following
+                  the
+                  welcome, both parties introduced the history, research focus, faculty strength, and student
+                  development of
+                  their respective institutions, expressing hopes for increased future exchanges and collaboration.
+                </p>
+
+                <!-- Image + Paragraph 3 -->
+                <div class="flex justify-center items-center w-full px-16">
+                  <img src="../src/assets/images/news_post_1/02.webp" class=" w-full inset-0 object-cover" alt="">
+                </div>
+                <p class=" text-xl font-normal text-[#403F3F] font-source-sans leading-normal">
+                  During the seminar, both parties engaged in an in-depth discussion about the current international
+                  exchange programs for students at the two institutions, exploring potential opportunities for future
+                  exchange visits.
+                </p>
+                <!-- Image + Paragraph 4 -->
+                <div class="flex justify-center items-center w-full px-16">
+                  <img src="../src/assets/images/news_post_1/03.webp" class=" w-full inset-0 object-cover" alt="">
+                </div>
+                <p class=" text-xl font-normal text-[#403F3F] font-source-sans leading-normal">
+                  After the seminar, Professor Huang Yihui also participated in an interview with students from our
+                  department, focusing on topics such as health communication and risk communication. During the
+                  interview,
+                  Professor Huang encouraged students to maintain their original academic curiosity and passion in the
+                  rapidly changing environment, while also emphasizing the importance of building resilience and
+                  cultivating
+                  inner strength.
+                </p>
+
+                <!-- Image + Paragraph 5 -->
+                <div class="flex justify-center items-center w-full px-16">
+                  <img src="../src/assets/images/news_post_1/04.webp" class=" w-full inset-0 object-cover" alt="">
+                </div>
+                <p class=" text-xl font-normal text-[#403F3F] font-source-sans leading-normal">
+                  Professor Huang Yihui is currently the Chair and Chair Professor of the Department of Media and
+                  Communication at City University of Hong Kong, and an Emeritus Professor at the School of Journalism
+                  and
+                  Communication at The Chinese University of Hong Kong. She holds a PhD from the Philip Merrill College
+                  of
+                  Journalism at the University of Maryland, USA, and has previously served as a professor at both The
+                  Chinese University of Hong Kong and National Chengchi University in Taiwan. Her research interests
+                  include
+                  strategic communication, risk communication in health and technology issues, crisis communication,
+                  relationship management, and conflict resolution. She has published over 200 articles in top-tier
+                  journals, delivered 26 keynote speeches, and participated in more than 100 academic conferences.
+                  Professor
+                  Huang serves as the editor of *Communication and the Public* (SCOPUS and ESCI indexed) and
+                  *Communication
+                  and Society* (TSSCI indexed), and is a member of the editorial boards of several international SSCI
+                  journals. In 2021, she was elected as a Fellow of the International Communication Association (ICA),
+                  becoming the first Chinese woman from the Greater China region to receive this honor and the eighth
+                  Chinese member ever elected since the association's establishment.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </main>
+
+
+      <footer class="relative w-full overflow-hidden">
+        <div class="absolute inset-0 z-0" style="
+            background: linear-gradient(
+              180deg,
+              #BF165E 0%,
+              #EC5A2E 100%
+            );
+          "></div>
+
+        <!-- 2) Rectangle SVG (middle layer) -->
+        <div class="absolute z-10 top-[-30px] left-[-700px] w-full">
+          <img src="../src/assets/svg/footer_rectangle.svg" class="w-full max-h-[900px] min-w-[1350px]"
+            alt="Footer Rectangle" />
+        </div>
+
+        <!-- 3) Footer content container (z-20). 
+               Now you'll see both the shape and the gradient behind it. -->
+        <div class="relative z-20 mx-auto flex flex-row items-start gap-[220px] px-[96px] py-[72px]"
+          style="width: 1440px; height: 303px">
+          <!-- Left block: logo + address -->
+          <div class="flex flex-row items-start gap-[32px]">
+            <!-- Logo placeholder (127×71) -->
+            <div style="width: 127px; height: 71px">
+              <img src="../src/assets/svg/CityU_logo_mono.svg" alt="Logo" class="h-full w-full" />
+            </div>
+
+            <!-- Address container (347×86) -->
+            <div class="flex flex-col gap-[24px]" style="width: 347px; height: 86px">
+              <!-- University name -->
+              <h3 class="text-xl font-semibold leading-[120%] text-white"
+                style="font-family: 'Source Sans 3', sans-serif; height: 24px">
+                City University of Hong Kong
+              </h3>
+              <!-- Address -->
+              <p class="text-[16px] leading-relaxed text-white font-source-sans font-normal" style="height: 38px">
+                83 Tat Chee Avenue, <br>Kowloon Tong, Hong Kong
+              </p>
+            </div>
+          </div>
+
+          <!-- Right block: extra links (two columns) -->
+          <div
+            class="flex flex-row items-start gap-[48px] font-source-sans text-[16px] font-normal leading-[120%] text-white"
+            style="width: 305px; height: 159px">
+            <!-- Links column #1 -->
+            <div class="flex flex-col gap-[16px]" style="width: 125px; height: 159px">
+              <a href="#">
+                Contact Us
+              </a>
+              <a href="#">
+                Accessibility
+              </a>
+              <a href="#">
+                Copyright
+              </a>
+              <a href="#">
+                Logo/Name Policy
+              </a>
+              <a href="#">
+                Careers
+              </a>
+            </div>
+
+            <!-- Links column #2 -->
+            <div class="flex flex-col gap-[16px]" style="width: 132px; height: 124px">
+              <a href="#">
+                Useful Contacts
+              </a>
+              <a href="#">
+                Privacy Policy
+              </a>
+              <a href="#">
+                Disclaimer
+              </a>
+              <a href="#">
+                Academic Calendar
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+</body>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+<!-- Include Barba.js -->
+<script src="https://unpkg.com/@barba/core" defer></script>
+<!-- Include your transition script -->
+<script src="../transition.js" defer></script>
+
+</html>

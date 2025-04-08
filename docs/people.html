@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>People</title>
+  <!-- Link to Tailwind output CSS -->
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body class="text-gray-800">
+  <div id="barba-wrapper" data-barba="wrapper">
+    <div class="barba-container" data-barba="container">
+      <header class="w-full">
+        <!-- Top divider: 8px high multi-stop gradient -->
+        <div class="h-2 w-full" style="
+              background: linear-gradient(
+                90deg,
+                #bf165e 0%,
+                #de453d 27%,
+                #e85333 53%,
+                #ffa62a 100%
+              );
+            "></div>
+
+        <!-- White wrapper container -->
+        <!-- Using px-96 and py-50 to match your Figma spacing,
+             plus a gap if you need more spacing between multiple rows 
+             (though we only have one row now). -->
+        <div class="flex w-full flex-col items-start justify-start bg-white px-[96px] py-[2.5rem]">
+          <!-- Row for logo + two-line text -->
+          <div class="flex w-full flex-row items-center gap-[2rem]">
+            <!-- Logo block (placeholder) -->
+            <div class="flex h-20 w-36 items-center justify-center">
+              <img class="block object-contain" src="../src/assets/svg/CityU_logo.svg" alt="CityU Logo" />
+            </div>
+
+            <!-- Text box: first line is h2, second is paragraph for tagline -->
+            <div class="flex flex-col justify-center font-medium font-source-sans">
+              <h2 class="text-3xl leading-none tracking-[-0.01em] text-[#2E2D29]">
+                TRUST Lab
+              </h2>
+              <p class="mt-1 text-lg text-[#2E2D29] leading-none">
+                Trust, Risk, Understanding, Strategies, and Technology
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigator container -->
+        <nav class="flex w-full items-center justify-end px-[6rem]"
+          style="background: linear-gradient(90deg,#bf165e 0%, #de453d 27%, #e85333 53%, #ffa62a 100%);">
+          <ul class="flex flex-row items-center font-medium text-[1.125rem]
+            leading-[120%] text-white" style="font-family: 'Source Sans 3', sans-serif">
+            <li class="px-6 py-4 hover:underline"><a href="./index.html">Home</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 underline hover:underline"><a href="./people.html">People</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./research.html" class="group-hover:underline">Research</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./research.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust
+                    </div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Risk</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Information Behavior</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Strategic Com & Culture
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./project.html" class="group-hover:underline">Project</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./project_post_1.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      The 2023 Fukushima Nuclear
+                      Waste Crisis: A Multidisciplinary Research Agenda</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Dynamics of Trust:
+                      Navigating
+                      Institutional Trust in Crisis Contexts</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust in Artificial
+                      Intelligence: Empowering Reliable Autonomous Vehicles and Other AI Technologies</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      COVID-19</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="#" class="group-hover:underline">News & Media Coverage</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./news.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underlinem hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      News</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="./media_coverage.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Media Coverage</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./join_us.html">Join Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN CONTENT, 1248px wide & centered -->
+      <main class="mx-auto items-start w-[1248px] pt-[90px] pb-[120px] flex flex-col gap-[72px]">
+
+        <!-- BLOCK 1: Head Profile Container -->
+        <div class="flex flex-col items-start gap-[54px] w-full">
+          <!-- Title (32px, color #EC5A2E) -->
+          <h2 class="font-bold text-[32px] leading-[100%]" style="
+              font-family: 'Source Sans 3', sans-serif;
+              color: #EC5A2E;
+            ">
+            Head and Chair Professor
+          </h2>
+
+          <!-- Row with left "Person" (200px) and right "Description" (894px) -->
+          <div class="flex flex-row justify-between items-center gap-[10px] px-[48px]"
+            style="width:1248px; height:305px;">
+            <!-- LEFT: Person -->
+            <div class="flex flex-col items-center gap-[30px]" style="width:200px; height:305px;">
+              <!-- Profile Image -->
+              <div class="bg-[#D9D9D9]" style="width:200px; height:225px;">
+                <!-- placeholder for photo -->
+              </div>
+              <!-- Name + Position -->
+              <div class="flex flex-col items-center gap-[6px]" style="width:200px; height:50px;">
+                <span class="font-bold text-[18px] leading-[130%]" style="
+                    font-family:'Source Sans 3';
+                    color:#BF165E;
+                  ">
+                  Yi-Hui Christine Huang
+                </span>
+                <span class="font-medium text-[16px] leading-[130%]" style="
+                    font-family:'Source Sans 3';
+                    color:#2E2D29;
+                  ">
+                  Head and Chair Professor
+                </span>
+              </div>
+            </div>
+
+            <!-- RIGHT: Description text (894px wide, 207px tall) -->
+            <div class="flex items-center" style="width:894px; height:207px;">
+              <p class="font-normal text-[18px] leading-snug text-[#403F3F] font-source-sans">
+                <b>Yi-Hui Christine Huang</b> (Ph.D., University of Maryland) is Head and Chair Professor of the
+                Department
+                of Communication and Media at City University of Hong Kong. She was elected as International
+                Communication
+                Association (ICA) Fellow in 2021 and was conferred as Senior Research Fellow by Hong Kong Research
+                Grants
+                Council (RGC) in 2024. She has been committed to research on strategic communication, risk communication
+                in
+                health and technology, crisis communication, relationship management and conflict resolution, and
+                cross-cultural communication. She currently serves as Editor for Communication and the Public (ESCI) and
+                Communication and Society (TSSCI). She have also been a founding editorial board member for the Journal
+                of
+                International Crisis and Risk Communication. In addition, she serves as an editorial board member for
+                more
+                than 10 major international SSCI journals, such as Journal of Communication, Journal of Public Relations
+                Research, and Public Relations Review.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END Block 1 -->
+
+        <!-- BLOCK 2: Lab Members -->
+        <div class="flex flex-col items-start gap-[54px] w-full">
+          <!-- Title -->
+          <h2 class="font-bold text-[32px] leading-[100%] capitalize" style="
+              font-family: 'Source Sans 3', sans-serif;
+              color: #EC5A2E;
+            ">
+            Members
+          </h2>
+
+          <!-- Profile rows container (1248px wide, or so) -->
+          <div class="flex flex-col items-start gap-[54px] px-[48px]" style="width:1248px;">
+
+            <!-- Row 1 (4 columns, each person ~200px) -->
+            <div class="flex flex-row items-center gap-[110px] mt-auto w-full">
+              <!-- Person 1 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Qinxian Cai
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+              <!-- Person 2 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Bo Chang
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+              <!-- Person 3 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Haodong Liu
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+              <!-- Person 4 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Ruoheng Liu
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 2 (4 columns, last one empty) -->
+            <div class="flex flex-row items-center gap-[110px]" style="width:1152px;">
+              <!-- Person 1 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Shuang GAO
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+              <!-- Person 2 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Qinhui Zhan
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Research Assistant
+                  </span>
+                </div>
+              </div>
+              <!-- Person 3 -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <div class="bg-[#D9D9D9]" style="width:200px; height:225px;"></div>
+                <div class="flex flex-col items-center gap-[6px]" style="width:200px;">
+                  <span class="font-bold text-[18px]" style="font-family:'Source Sans 3'; color:#BF165E;">
+                    Le-Yi Zhang
+                  </span>
+                  <span class="font-medium text-[16px]" style="font-family:'Source Sans 3'; color:#2E2D29;">
+                    Ph.D. candidate
+                  </span>
+                </div>
+              </div>
+              <!-- Person 4 (empty) -->
+              <div class="flex flex-col items-center gap-[18px]" style="width:200px;">
+                <!-- intentionally blank for an empty column -->
+              </div>
+            </div>
+
+          </div> <!-- End of “Lab Members” container -->
+        </div>
+        <!-- END Block 2 -->
+
+      </main>
+
+      <footer class="relative w-full overflow-hidden">
+        <!-- 1) The orange shape (Rectangle 43), behind everything (z-0) -->
+        <!--    Positioned on the left, flipped horizontally. -->
+        <div class="absolute top-[-28px] left-[-200px] w-[996px] h-[584px] 
+                   bg-[#EC5A2E] -scale-x-100 z-0" style="
+              transform-origin: top left;
+            ">
+        </div>
+
+        <!-- 2) A semi-transparent gradient overlay (z-10). 
+               Reduces opacity so the shape is partially visible underneath. -->
+        <div class="absolute inset-0 z-10" style="
+              background: linear-gradient(
+                180deg, 
+                rgba(191, 22, 94, 0.9) 0%,   /* #BF165E @ 90% opacity */
+                rgba(236, 90, 46, 0.9) 100% /* #EC5A2E @ 90% opacity */
+              );
+            ">
+        </div>
+
+        <!-- 3) Footer content container (z-20). 
+               Now you'll see both the shape and the gradient behind it. -->
+        <div class="relative mx-auto flex flex-row items-start px-[96px] py-[72px] gap-[220px] z-20"
+          style="width:1440px; height:303px;">
+          <!-- Left block: logo + address -->
+          <div class="flex flex-row items-start gap-[32px]">
+            <!-- Logo placeholder (127×71) -->
+            <div style="width:127px; height:71px;">
+              <img src="../src/assets/svg/CityU_logo_mono.svg" alt="Logo" class="w-full h-full" />
+            </div>
+
+            <!-- Address container (347×86) -->
+            <div class="flex flex-col gap-[24px]" style="width:347px; height:86px;">
+              <!-- University name -->
+              <h3 class="font-bold text-[20px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif; height:24px;">
+                City University of Hong Kong
+              </h3>
+              <!-- Address -->
+              <p class="text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif; height:38px;">
+                83 Tat Chee Avenue, Kowloon Tong, Hong Kong
+              </p>
+            </div>
+          </div>
+
+          <!-- Right block: extra links (two columns) -->
+          <div class="flex flex-row items-start gap-[48px]" style="width:305px; height:159px;">
+            <!-- Links column #1 -->
+            <div class="flex flex-col gap-[16px]" style="width:125px; height:159px;">
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Contact Us
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Accessibility
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Copyright
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Logo/Name Policy
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Careers
+              </a>
+            </div>
+
+            <!-- Links column #2 -->
+            <div class="flex flex-col gap-[16px]" style="width:132px; height:124px;">
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Useful Contacts
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Privacy Policy
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Disclaimer
+              </a>
+              <a href="#" class="font-semibold text-[16px] leading-[120%] text-white"
+                style="font-family:'Source Sans 3', sans-serif;">
+                Academic Calendar
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+
+  <!-- Include GSAP (for animations) -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+  <!-- Include Barba.js -->
+  <script src="https://unpkg.com/@barba/core" defer></script>
+  <!-- Include your transition script -->
+  <script src="../transition.js" defer></script>
+
+</body>
+
+</html>

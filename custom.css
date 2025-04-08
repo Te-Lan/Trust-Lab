@@ -1,0 +1,118 @@
+/* custom.css */
+
+/* Import Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.card-title {
+  @apply mx-auto text-xl font-semibold leading-[125%] text-darkText font-source-sans;
+}
+
+
+
+
+/* --------------------------------------------------------- */
+/*                Custom Design Tokens (CSS Variables)       */
+/* --------------------------------------------------------- */
+
+:root {
+  --color-primary: #EC5A2E;       /* Primary accent for headings, buttons, etc. */
+  --color-secondary: #BF165E;     /* Secondary accent (for gradients, etc.) */
+  --color-accent1: #DE453D;
+  --color-accent2: #E85333;
+  --color-darkText: #2E2D29;      /* For strong headings */
+  --color-bodyText: #403F3F;      /* For body paragraphs */
+  --color-lightGray: #EFEFEF;     /* For background placeholders */
+  --color-white: #FFFFFF;
+}
+
+/* --------------------------------------------------------- */
+/*                   Custom Font Family Utilities            */
+/* --------------------------------------------------------- */
+
+.font-source-sans {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* --------------------------------------------------------- */
+/*                   Custom Color Utilities                  */
+/* --------------------------------------------------------- */
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-darkText {
+  color: var(--color-darkText);
+}
+
+.text-bodyText {
+  color: var(--color-bodyText);
+}
+
+.bg-lightGray {
+  background-color: var(--color-lightGray);
+}
+
+/* --------------------------------------------------------- */
+/*                Custom Typography Classes                  */
+/* --------------------------------------------------------- */
+
+/* Example for an H2 (section title) */
+.h2 {
+  @apply text-[32px] font-bold leading-[100%] capitalize text-primary font-source-sans;
+}
+
+/* Example for an H3 (large headings) */
+.h3 {
+  @apply text-[48px] font-semibold leading-[105%] text-darkText font-source-sans;
+}
+
+/* Body paragraph style */
+.body-paragraph {
+  @apply text-[21px] font-medium leading-[140%] text-bodyText font-source-sans;
+}
+
+/* --------------------------------------------------------- */
+/*                    Custom Button Style                    */
+/* --------------------------------------------------------- */
+
+.btn-primary {
+  /* Use inline-flex so that the button "hugs" its content */
+  @apply inline-flex items-center justify-center bg-white rounded-[20px] px-[58px] py-[6px] gap-[10px] text-[18px] font-semibold leading-[130%] text-primary font-source-sans;
+}
+
+/* --------------------------------------------------------- */
+/*                  Generic Card Component                   */
+/* --------------------------------------------------------- */
+
+.card {
+  @apply bg-primary p-4 rounded-lg shadow-md;
+}
+
+/* Image container utility to cover available space */
+.img-cover {
+  @apply w-full h-full object-cover;
+}
+
+/* --------------------------------------------------------- */
+/*           Additional Reusable Utility Classes             */
+/* --------------------------------------------------------- */
+
+/* For spacing adjustments if needed */
+.spacing-96 {
+  @apply p-[6rem];
+}
+
+/* You can add more custom classes here as you refine your design… */

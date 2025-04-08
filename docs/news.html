@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News | TRUST Lab</title>
+  <!-- Link to Tailwind output CSS -->
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body class="text-gray-800">
+  <div id="barba-wrapper" data-barba="wrapper">
+    <div class="barba-container" data-barba="container">
+      <header class="w-full">
+        <!-- Top divider: 8px high multi-stop gradient -->
+        <div class="h-2 w-full" style="
+              background: linear-gradient(
+                90deg,
+                #bf165e 0%,
+                #de453d 27%,
+                #e85333 53%,
+                #ffa62a 100%
+              );
+            "></div>
+
+        <!-- White wrapper container -->
+        <!-- Using px-96 and py-50 to match your Figma spacing,
+             plus a gap if you need more spacing between multiple rows 
+             (though we only have one row now). -->
+        <div class="flex w-full flex-col items-start justify-start bg-white px-[96px] py-[2.5rem]">
+          <!-- Row for logo + two-line text -->
+          <div class="flex w-full flex-row items-center gap-[2rem]">
+            <!-- Logo block (placeholder) -->
+            <div class="flex h-20 w-36 items-center justify-center">
+              <img class="block object-contain" src="../src/assets/svg/CityU_logo.svg" alt="CityU Logo" />
+            </div>
+
+            <!-- Text box: first line is h2, second is paragraph for tagline -->
+            <div class="flex flex-col justify-center font-medium font-source-sans">
+              <h2 class="text-3xl leading-none tracking-[-0.01em] text-[#2E2D29]">
+                TRUST Lab
+              </h2>
+              <p class="mt-1 text-lg text-[#2E2D29] leading-none">
+                Trust, Risk, Understanding, Strategies, and Technology
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigator container -->
+        <nav class="flex w-full items-center justify-end px-[6rem]"
+          style="background: linear-gradient(90deg,#bf165e 0%, #de453d 27%, #e85333 53%, #ffa62a 100%);">
+          <ul class="flex flex-row items-center font-medium text-[1.125rem]
+            leading-[120%] text-white" style="font-family: 'Source Sans 3', sans-serif">
+            <li class="px-6 py-4 hover:underline"><a href="./index.html">Home</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./people.html">People</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./research.html" class="group-hover:underline">Research</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./research.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust
+                    </div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Risk</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Information Behavior</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Strategic Com & Culture
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./project.html" class="group-hover:underline">Project</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./project_post_1.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      The 2023 Fukushima Nuclear
+                      Waste Crisis: A Multidisciplinary Research Agenda</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Dynamics of Trust:
+                      Navigating
+                      Institutional Trust in Crisis Contexts</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust in Artificial
+                      Intelligence: Empowering Reliable Autonomous Vehicles and Other AI Technologies</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      COVID-19</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="#" class="underline group-hover:underline">News & Media Coverage</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./news.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#2E2D29] underline hover:underline hover:bg-neutral-100 duration-300 ease-in-out">
+                      News</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="./media_coverage.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Media Coverage</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./join_us.html">Join Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Outer container: 1440px area, centered, 90px top/bottom, 96px sides -->
+      <div class="flex flex-col items-start gap-[56px]" style="
+            max-width:1440px; 
+            margin:auto; 
+            padding:90px 96px;
+          ">
+        <!-- BLOCK 1, Row 1: Section Title (32px, #EC5A2E) -->
+        <h2 class="font-bold text-3xl leading-[100%] capitalize" style="
+              font-family:'Source Sans 3', sans-serif;
+              color:#EC5A2E;
+              height:32px;
+            ">
+          News
+        </h2>
+
+        <!-- BLOCK 1, Row 2: Main Container for the news list & final sub-section -->
+        <!-- 1264px wide content container with 56px gap -->
+        <div class="flex flex-col gap-[56px]" style="width:1264px;">
+          <!-- NEWS LIST (multiple items + horizontal dividers) -->
+          <div class="flex flex-col items-start" style="width:1264px;">
+            <!-- Example news item #1 -->
+            <a href="./news_post_1.html">
+              <div class="flex flex-row justify-between items-start py-12 hover:bg-[#ec5a2e14] duration-300 ease-in-out"
+                style="width:1264px; padding-right:19px;">
+                <!-- Left column: title + date (576px wide) -->
+                <div class="flex flex-col justify-between" style="width:576px; height:148px;">
+                  <!-- News Title (28px) -->
+                  <h3 class="font-source-sans font-semibold text-3xl leading-[120%] text-[#2E2D29] flex items-center">
+                    Director Huang Visited The School of Journalism and Communication at Peking University
+                  </h3>
+                  <!-- News Date (18px) -->
+                  <p class="font-normal text-base leading-[100%] text-[#403F3F] flex items-center font-sans-source">
+                    December 17, 2022
+                  </p>
+                </div>
+                <!-- Right column: 290×148 placeholder image -->
+                <div class="bg-[#EFEFEF]" style="width:290px; height:148px;">
+                  <img src="../src/assets/images/news_thumbnails/01.webp" alt="" class="h-full w-full object-cover" />
+                </div>
+              </div>
+            </a>
+            <!-- Divider line -->
+            <hr class="w-[1264px] border-t-[1px] border-[#C2C2C2]" />
+
+            <!-- Example news item #2 -->
+            <div class="flex flex-row justify-between items-start py-12 hover:bg-[#ec5a2e14] duration-300 ease-in-out"
+              style="width:1264px; padding-right:19px;">
+              <!-- Left column -->
+              <div class="flex flex-col justify-between" style="width:576px; height:148px;">
+                <h3 class="font-source-sans font-semibold text-3xl leading-[120%] text-[#2E2D29] flex items-center">
+                  Director Huang gave a lecture at Nanjing University titled "Dynamic Trust in Health Risks: Trajectory
+                  Evolution Analysis.
+                </h3>
+                <p class="font-normal text-base leading-[100%] text-[#403F3F] flex items-center font-sans-source">
+                  December 1, 2024
+                </p>
+              </div>
+              <!-- Right column (placeholder image) -->
+              <div class="bg-[#EFEFEF]" style="width:290px; height:148px;">
+                <img src="../src/assets/images/news_thumbnails/02.webp" alt="" class="h-full w-full object-cover" />
+              </div>
+            </div>
+            <hr class="w-[1264px] border-t-[1px] border-[#C2C2C2]" />
+
+            <!-- Repeat more items + lines as needed... -->
+
+          </div> <!-- End news list -->
+
+          <!-- Container 2: final sub-section with 2 rows in 1 column
+                Row 1 => sub-section title
+                Row 2 => a text list (multiple lines) -->
+          <div class="flex flex-col gap-[56px]" style="width:1264px;">
+            <!-- Sub-section Title (28px, #2E2D29) -->
+            <h3 class="font-bold text-[2rem] leading-[100%] capitalize font-source-sans text-[#2E2D29]" "
+              >
+                Keynote Speech
+              </h3>
+    
+              <!-- A bullet-point list of speeches (20 items, for example) -->
+           <div class=" relative" style="width:1264px;">
+              <div class=" h-[420px] overflow-y-scroll">
+                <ul class=" list-disc pl-8 flex flex-col gap-[24px] text-[18px]" style="
+                  font-family:'Source Sans 3';
+                  line-height:130%;
+                  color:#403F3F;
+                  width:1264px;
+                ">
+                  <li>Huang, Y. H. (April 23, 2024). Keynote speech on “Marketing Communication, Crisis Management and
+                    Conflict
+                    Resolution in Strategic Communication：Theoretical Model Construction and Sharing
+                    (策略傳播中的行銷管理、危機溝通與衝突調解:
+                    理論模型建構與分享),” International Academic Forum on Brian, Linguistics, and Communication, School of
+                    Journalism,
+                    Yunnan University, Kunming, China.</li>
+                  <li>Huang, Y. H. (October 28, 2023). Keynote speech on “From Engagement to Co-Creation: Paradigm Shift
+                    in
+                    Strategic Communication (從涉入到共創：策略传播的範式轉變),” The Future of Emerging Media Forum, School of Media and
+                    Communication, Shanghai Jiao Tong University, Shanghai, China.</li>
+                  <li>Huang, Y. H. (October 22, 2023). Keynote speech on “The Paradigm of Strategic Communication/Public
+                    Relations Campaign: High Quality, New Development, Towards the Future (策略傳播/公共關係策劃之範式：高質量、新發展、向未來)”,
+                    The
+                    9th
+                    China University Students Public Relations Planning and Entrepreneurship Competition
+                    (第九屆中國大學生公共關係策劃創業大賽),
+                    China International Public Relations Association (CIPRA), Shanghai, China.</li>
+                  <li>Huang, Y. H. (August 19, 2023). Keynote speech on “Crisis/Risk Communication and Trust Research: A
+                    Cross-cultural Perspective (危機/風險溝通與信任研究：跨文化視角),” Public Relations Society of China 7th Annual
+                    Conference,
+                    Lanzhou, China.</li>
+                  <li>Huang, Y. H. (May 24, 2023). Keynote speech on “Navigating Culture-Based Communication: Exploring
+                    Four
+                    Approaches with Case Illustration,” Digital Communication in Global China: Creativity, Authenticity,
+                    and
+                    Sustainability, International Communication Association Preconference, Toronto, Canada.</li>
+                  <li>Huang, Y. H. (July 5, 2021). Keynote speech on “Engagement, Emergency, and Communication
+                    Management in
+                    COVID-19 Crisis” (新冠疫情下之涉入（捲入）、應急與傳播管理), The 13th "International Frontier Communication Theory and
+                    Research
+                    Method" Advanced Seminar (2021): Research Innovation in Digital Communication: Theory and
+                    Methodology,
+                    Zhejiang University, Hangzhou, China.</li>
+                  <li>Huang, Y. H. (July 21, 2020). Keynote speech on “Paradigm Shift in Strategic Communication,”
+                    Foreign
+                    Expert Series, Zhejiang University, Hangzhou, China.</li>
+                  <li>Huang, Y. H. (January 8, 2020). Keynote speech on “Branding, corporate core values, and public
+                    relations,”
+                    presented at the annual conference of China International Public Relations Association (CIPRA),
+                    Hainan,
+                    China.</li>
+                  <li>Huang, Y. H. (January 10, 2019). Keynote speech on “corporate reputation and business model,” the
+                    Research
+                    Center of Corporate Reputation in Greater Bay area.</li>
+                  <li>Huang, Y. H. (Oct, 2018). Keynote speech on “Stakeholder engagement and emergency communication:
+                    Cross-cultural lessons” at the International Symposium on Communicating Nuclear and Radiological
+                    Emergencies
+                    to the Public, organized by the International Atomic Energy Agency (IAEA). October 1-5, Vienna,
+                    Austria.
+                  </li>
+                  <li>Huang, Y. H. (March, 2018). Keynote speech on “bridging the culture gap in crisis and risk
+                    communication”
+                    to be presented at the annual International Crisis and Risk Communication Conference. Florida, USA.
+                  </li>
+                  <li>Huang, Y. H. (August 18, 2017). Keynote speech on “The development of public relations discipline
+                    and
+                    paradigm in digital era: Prospective and challenges,” presented at the international conference of
+                    Chinese
+                    Journalism. Zhengzhou, China.</li>
+                  <li>Huang, Y. H. (April 27, 2017). Keynote speech (one among three) on “Communications and Chinese
+                    culture,”
+                    presented at the International conference held by International Association of Business
+                    Communicators
+                    (IABC), April, 27, Hong Kong, SAR.</li>
+                  <li>Huang, Y. H. (Dec. 28, 2016). Keynote speech on “The paradigm shift of public relations: Presence,
+                    challenges, and prospects from the perspective of legitimacy,” presented at the Asia Pacific Chinese
+                    public
+                    relations awards and convention, Taiwan/Taipei International public relations Association, December
+                    28-31,
+                    2016.</li>
+                  <li>Huang, Y. H. (Nov. 28, 2014). Keynote speech on “Paradigm shift of public relation: Trust
+                    management
+                    in
+                    a
+                    risk society,” keynote speech presented at an International Conference held by Korean Academic
+                    Society
+                    for
+                    Public Relations (KASPR), Seoul, Korea.</li>
+                  <li>Huang, Y. H. (Oct. 1, 2014). Keynote speech on “Crisis Communication in Chinese Context,”
+                    presented to
+                    the
+                    International Communication Association Regional Conference in Queensland University of Technology,
+                    Australia.</li>
+                  <li>Huang, Y. H. (Feb. 25h, 2014), Keynote speech on “Governing with the Media in the Risk Society,”
+                    delivered
+                    in a public lecture in School of Journalism and Communication in Tsinghua University, Beijing,
+                    China.
+                  </li>
+                  <li>Huang, Y. H. (Nov. 10, 2012), Keynote speech on “Internet, crisis communication, and theoretical
+                    challenges,” presented to the bi-annual conference of the Taiwan Academy for Information Society,
+                    Taiwan.
+                  </li>
+                  <!-- Add more <li> items as needed, up to ~20 lines or more -->
+                </ul>
+              </div>
+              <div class="pointer-events-none absolute bottom-0 left-0 w-full h-8 bg-gradient-to-t from-white"></div>
+          </div>
+
+
+        </div> <!-- End Container 2 for sub-section -->
+
+      </div> <!-- End main 1264px container -->
+    </div> <!-- End outer container -->
+
+
+    <footer class="relative w-full overflow-hidden">
+      <div class="absolute inset-0 z-0" style="
+            background: linear-gradient(
+              180deg,
+              #BF165E 0%,
+              #EC5A2E 100%
+            );
+          "></div>
+
+      <!-- 2) Rectangle SVG (middle layer) -->
+      <div class="absolute z-10 top-[-30px] left-[-700px] w-full">
+        <img src="../src/assets/svg/footer_rectangle.svg" class="w-full max-h-[900px] min-w-[1350px]"
+          alt="Footer Rectangle" />
+      </div>
+
+      <!-- 3) Footer content container (z-20). 
+               Now you'll see both the shape and the gradient behind it. -->
+      <div class="relative z-20 mx-auto flex flex-row items-start gap-[220px] px-[96px] py-[72px]"
+        style="width: 1440px; height: 303px">
+        <!-- Left block: logo + address -->
+        <div class="flex flex-row items-start gap-[32px]">
+          <!-- Logo placeholder (127×71) -->
+          <div style="width: 127px; height: 71px">
+            <img src="../src/assets/svg/CityU_logo_mono.svg" alt="Logo" class="h-full w-full" />
+          </div>
+
+          <!-- Address container (347×86) -->
+          <div class="flex flex-col gap-[24px]" style="width: 347px; height: 86px">
+            <!-- University name -->
+            <h3 class="text-xl font-semibold leading-[120%] text-white"
+              style="font-family: 'Source Sans 3', sans-serif; height: 24px">
+              City University of Hong Kong
+            </h3>
+            <!-- Address -->
+            <p class="text-[16px] leading-relaxed text-white font-source-sans font-normal" style="height: 38px">
+              83 Tat Chee Avenue, <br>Kowloon Tong, Hong Kong
+            </p>
+          </div>
+        </div>
+
+        <!-- Right block: extra links (two columns) -->
+        <div
+          class="flex flex-row items-start gap-[48px] font-source-sans text-[16px] font-normal leading-[120%] text-white"
+          style="width: 305px; height: 159px">
+          <!-- Links column #1 -->
+          <div class="flex flex-col gap-[16px]" style="width: 125px; height: 159px">
+            <a href="#">
+              Contact Us
+            </a>
+            <a href="#">
+              Accessibility
+            </a>
+            <a href="#">
+              Copyright
+            </a>
+            <a href="#">
+              Logo/Name Policy
+            </a>
+            <a href="#">
+              Careers
+            </a>
+          </div>
+
+          <!-- Links column #2 -->
+          <div class="flex flex-col gap-[16px]" style="width: 132px; height: 124px">
+            <a href="#">
+              Useful Contacts
+            </a>
+            <a href="#">
+              Privacy Policy
+            </a>
+            <a href="#">
+              Disclaimer
+            </a>
+            <a href="#">
+              Academic Calendar
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+
+
+
+</body>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+<!-- Include Barba.js -->
+<script src="https://unpkg.com/@barba/core" defer></script>
+<!-- Include your transition script -->
+<script src="../transition.js" defer></script>
+
+</html>

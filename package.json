@@ -1,0 +1,17 @@
+{
+  "name": "trust-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss@latest -i tailwind.css -o dist/output.css",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  }
+}

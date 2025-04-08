@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | TRUST Lab | City University of Hong Kong</title>
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body class="text-gray-800">
+
+  <div id="barba-wrapper" data-barba="wrapper">
+
+    <div class="barba-container" data-barba="container">
+      <header class="w-full">
+        <!-- Top divider: 8px high multi-stop gradient -->
+        <div class="h-2 w-full" style="
+                  background: linear-gradient(
+                    90deg,
+                    #bf165e 0%,
+                    #de453d 27%,
+                    #e85333 53%,
+                    #ffa62a 100%
+                  );
+                "></div>
+
+        <!-- White wrapper container -->
+        <!-- Using px-96 and py-50 to match your Figma spacing,
+                plus a gap if you need more spacing between multiple rows 
+                (though we only have one row now). -->
+        <div class="flex w-full flex-col items-start justify-start bg-white px-[96px] py-[2.5rem]">
+          <!-- Row for logo + two-line text -->
+          <div class="flex w-full flex-row items-center gap-[2rem]">
+            <!-- Logo block (placeholder) -->
+            <div class="flex h-20 w-36 items-center justify-center">
+              <img class="block object-contain" src="../src/assets/svg/CityU_logo.svg" alt="CityU Logo" />
+            </div>
+
+            <!-- Text box: first line is h2, second is paragraph for tagline -->
+            <div class="flex flex-col justify-center font-medium font-source-sans">
+              <h2 class="text-3xl leading-none tracking-[-0.01em] text-[#2E2D29]">
+                TRUST Lab
+              </h2>
+              <p class="mt-1 text-lg text-[#2E2D29] leading-none">
+                Trust, Risk, Understanding, Strategies, and Technology
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigator container -->
+        <nav class="flex w-full items-center justify-end px-[6rem]"
+          style="background: linear-gradient(90deg,#bf165e 0%, #de453d 27%, #e85333 53%, #ffa62a 100%);">
+          <ul class="flex flex-row items-center font-medium text-[1.125rem]
+            leading-[120%] text-white" style="font-family: 'Source Sans 3', sans-serif">
+            <li class="px-6 py-4 underline hover:underline"><a href="./index.html">Home</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./people.html">People</a></li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./research.html" class="group-hover:underline">Research</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./research.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust
+                    </div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Risk</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Information Behavior</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Strategic Com & Culture
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="./project.html" class="group-hover:underline">Project</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="</div>flex flex-col gap-0">
+                  <a href="./project_post_1.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      The 2023 Fukushima Nuclear
+                      Waste Crisis: A Multidisciplinary Research Agenda</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Dynamics of Trust:
+                      Navigating
+                      Institutional Trust in Crisis Contexts</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Trust in Artificial
+                      Intelligence: Empowering Reliable Autonomous Vehicles and Other AI Technologies</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="#">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      COVID-19</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="group relative px-6 py-4">
+              <a href="#" class="group-hover:underline">News & Media Coverage</a>
+              <div
+                class="absolute left-1 top-full z-[2] w-[270px] flex-col bg-white p-[10px] text-lg font-source-sans font-medium shadow-[0_2px_4px_rgba(0,0,0,0.25)] group-hover:flex transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto">
+                <div class="flex flex-col gap-0">
+                  <a href="./news.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      News</div>
+                  </a>
+                  <hr class="border-t-[1px] border-[#C2C2C2]" />
+                  <a href="./media_coverage.html">
+                    <div
+                      class="flex items-center px-[12px] py-3 text-[#EC5A2E] hover:underline hover:bg-[#ec5a2e14] duration-300 ease-in-out">
+                      Media Coverage</div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="h-[1.125em] w-[1.5px] bg-white"></li>
+            <li class="px-6 py-4 hover:underline"><a href="./join_us.html">Join Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- BODY CONTENT -->
+      <main>
+        <!-- Block 1: Hero Section -->
+        <div class="relative aspect-[5/2] w-full overflow-hidden">
+          <!-- Gray rectangle (Rectangle 23) as background fallback -->
+          <div class="absolute inset-0 bg-[#D9D9D9]"></div>
+
+          <!-- Hero image (图片1.png) offset as per Figma (left -72px, top -454.25px).
+                Make sure you have the correct path to the actual image. -->
+          <img src="../src/assets/images/Hero image.png" alt="Hero Image"
+            class="absolute inset-0 h-full w-full object-cover" />
+
+          <!-- Gradient overlay (Rectangle 24) 
+                from transparent at 66% to rgba(231,58,39,0.4) at 100%. -->
+          <div class="absolute inset-0" style="
+                  background: linear-gradient(
+                    180deg,
+                    rgba(231, 58, 39, 0) 66%,
+                    rgba(231, 58, 39, 0.4) 100%
+                  );
+                "></div>
+        </div>
+
+        <!-- BLOCK 2: Team Introduction -->
+        <div class="w-full" style="background: linear-gradient(180deg, #ffffff 50%, #f0f0f0 100%)">
+          <!-- Outer container: 1440×540, padding 100px top/bottom, 96px left/right, gap 30px -->
+          <div class="mx-auto flex flex-col items-start gap-[30px] px-[96px] py-[100px]"
+            style="width: 1440px; height: 540px">
+            <!-- "Banner 1" container: 1248×340, column layout, 30px bottom padding -->
+            <div class="flex w-[1248px] flex-col items-start" style="height: 340px; padding-bottom: 30px">
+              <!-- "About Section": 821×310, column layout -->
+              <div class="flex w-[821px] flex-col items-start" style="height: 310px">
+                <!-- Text Wrapper: now includes the divider as a final child -->
+                <div class="flex flex-col items-start gap-[50px] py-[40px]" style="width: 821px">
+                  <!-- Section Title (gradient text) -->
+                  <h2 class="bg-clip-text text-4xl font-bold capitalize leading-[100%] text-transparent" style="
+                          font-family: 'Source Sans 3', sans-serif;
+                          background: linear-gradient(
+                            90deg,
+                            #bf165e 0%,
+                            #ec5a2e 100%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                        ">
+                    About TRUST Lab
+                  </h2>
+
+                  <!-- Section Description -->
+                  <p class="text-xl font-normal leading-[125%] text-[#2E2D29]"
+                    style="font-family: 'Source Sans 3', sans-serif; width: 821px">
+                    The TRUST Lab, part of the Department of Media and
+                    Communication at the City University of Hong Kong, aims to
+                    continually investigate the initiatives and responses of
+                    public institutions and the public during times of crisis. Our
+                    focus includes, but is not limited to, the analysis of trust,
+                    risk, and media interventions.
+                  </p>
+
+                  <!-- Section Divider: 821×12, same multi-stop gradient as your nav -->
+                  <div class="h-2 w-[821px]" style="
+                          background: linear-gradient(
+                            90deg,
+                            #bf165e 0%,
+                            #de453d 27%,
+                            #e85333 53%,
+                            #ffa62a 100%
+                          );
+                        "></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOCK 3: Recent Activities Section, 2 rows x 3 columns -->
+        <div class="w-full" style="background: #f4f4f4">
+          <!-- Outer Container: 1440×1470 -->
+          <div class="mx-auto px-[96px] pt-[100px] pb-[120px]" style="width: 1440px; height: 1470px">
+            <!-- Section Title (48px gradient text) -->
+            <h2 class="bg-clip-text text-4xl font-bold capitalize leading-[100%] text-transparent" style="
+                font-family: 'Source Sans 3', sans-serif;
+                width: 353px;
+                height: 48px;
+                background: linear-gradient(90deg, #bf165e 0%, #ec5a2e 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              ">
+              Recent Activities
+            </h2>
+
+            <!-- Cards Grid: 3 columns, gap 31px horizontally and 50px vertically -->
+            <div class="mt-[50px] grid grid-cols-3 gap-x-[31px] gap-y-[50px]" style="width: 1248px">
+              <!-- Optional: set an explicit width if you want 
+              to match Figma's "Cards Container" 
+              or simply let it fill. -->
+
+              <!-- ===================== CARD 1 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <!-- Image Container (400×300) -->
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <!-- Actual image placeholder: Figma says 408×300, so it may overflow a bit -->
+                  <div class="mx-auto" style="
+                  width: 408px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_1.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+
+                <!-- Text Container (400×229) -->
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <!-- Title -->
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      The 2023 Fukushima Nuclear Waste Crisis: A Multidisciplinary
+                      Research Agenda
+                    </h3>
+                    <!-- “Learn More” row -->
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <!-- Caret (placeholder) -->
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+
+                  </div>
+                </a>
+
+                <!-- Gradient Divider (400×12) -->
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+
+              <!-- ===================== CARD 2 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <div class="mx-auto" style="
+                  width: 408px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_2.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      Dynamics of Trust: Navigating Institutional Trust in Crisis
+                      Contexts
+                    </h3>
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+
+              <!-- ===================== CARD 3 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <div class="mx-auto" style="
+                  width: 514px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_3.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      Director Huang Visited The School of Journalism and
+                      Communication at Peking University
+                    </h3>
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+
+              <!-- ===================== CARD 4 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <div class="mx-auto" style="
+                  width: 592px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_4.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      Director Huang gave a lecture at Nanjing University titled
+                      "Dynamic Trust in Health Risks: Trajectory Evolution
+                      Analysis."
+                    </h3>
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+
+              <!-- ===================== CARD 5 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <div class="mx-auto" style="
+                  width: 429px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_5.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      Trust in Artificial Intelligence: Empowering Reliable
+                      Autonomous Vehicles and Other AI Technologies
+                    </h3>
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+
+              <!-- ===================== CARD 6 ===================== -->
+              <div
+                class="flex flex-col items-start drop-shadow-[0_2px_3px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-transform duration-300 ease-in-out"
+                style="width: 400px; height: 541px">
+                <div class="flex items-start justify-between bg-[#F0F0F0]" style="width: 400px; height: 300px">
+                  <div class="mx-auto" style="
+                  width: 518px;
+                  height: 300px;
+                  background: url(../src/assets/images/rec_act_6.png)
+                    center/cover no-repeat;
+                "></div>
+                </div>
+                <a href="#">
+                  <div class="flex flex-col justify-between bg-white px-[36px] py-[30px]"
+                    style="width: 400px; height: 229px">
+                    <h3 class="card-title w-[328px] h-[72px]">
+                      Trust in Artificial Intelligence: Empowering Reliable
+                      Autonomous Vehicles and Other AI Technologies
+                    </h3>
+                    <div class="mx-auto flex flex-row items-center gap-[8px]" style="width: 328px; height: 18px">
+                      <span class="text-[18px] font-bold leading-[100%] text-[#BF165E] hover:underline"
+                        style="font-family: 'Source Sans 3', sans-serif">
+                        Learn More
+                      </span>
+                      <div class="h-[18px] w-[18px]">
+                        <img src="../src/assets/svg/CaretRight.svg" class="h-full w-auto" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div style="
+                width: 400px;
+                height: 8px;
+                background: linear-gradient(
+                  90deg,
+                  #bf165e 0%,
+                  #de453d 27%,
+                  #e85333 53%,
+                  #ffa62a 100%
+                );
+                  "></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+      <!-- Include GSAP (for animations) -->
+      <footer class="relative w-full overflow-hidden">
+        <div class="absolute inset-0 z-0" style="
+              background: linear-gradient(
+                180deg,
+                #BF165E 0%,
+                #EC5A2E 100%
+              );
+            "></div>
+
+        <!-- 2) Rectangle SVG (middle layer) -->
+        <div class="absolute z-10 top-[-30px] left-[-700px] w-full">
+          <img src="../src/assets/svg/footer_rectangle.svg" class="w-full max-h-[900px] min-w-[1350px]"
+            alt="Footer Rectangle" />
+        </div>
+
+        <!-- 3) Footer content container (z-20). 
+                Now you'll see both the shape and the gradient behind it. -->
+        <div class="relative z-20 mx-auto flex flex-row items-start gap-[220px] px-[96px] py-[72px]"
+          style="width: 1440px; height: 303px">
+          <!-- Left block: logo + address -->
+          <div class="flex flex-row items-start gap-[32px]">
+            <!-- Logo placeholder (127×71) -->
+            <div style="width: 127px; height: 71px">
+              <img src="../src/assets/svg/CityU_logo_mono.svg" alt="Logo" class="h-full w-full" />
+            </div>
+
+            <!-- Address container (347×86) -->
+            <div class="flex flex-col gap-[24px]" style="width: 347px; height: 86px">
+              <!-- University name -->
+              <h3 class="text-xl font-semibold leading-[120%] text-white"
+                style="font-family: 'Source Sans 3', sans-serif; height: 24px">
+                City University of Hong Kong
+              </h3>
+              <!-- Address -->
+              <p class="text-[16px] leading-relaxed text-white font-source-sans font-normal" style="height: 38px">
+                83 Tat Chee Avenue, <br>Kowloon Tong, Hong Kong
+              </p>
+            </div>
+          </div>
+
+          <!-- Right block: extra links (two columns) -->
+          <div
+            class="flex flex-row items-start gap-[48px] font-source-sans text-[16px] font-normal leading-[120%] text-white"
+            style="width: 305px; height: 159px">
+            <!-- Links column #1 -->
+            <div class="flex flex-col gap-[16px]" style="width: 125px; height: 159px">
+              <a href="#">
+                Contact Us
+              </a>
+              <a href="#">
+                Accessibility
+              </a>
+              <a href="#">
+                Copyright
+              </a>
+              <a href="#">
+                Logo/Name Policy
+              </a>
+              <a href="#">
+                Careers
+              </a>
+            </div>
+
+            <!-- Links column #2 -->
+            <div class="flex flex-col gap-[16px]" style="width: 132px; height: 124px">
+              <a href="#">
+                Useful Contacts
+              </a>
+              <a href="#">
+                Privacy Policy
+              </a>
+              <a href="#">
+                Disclaimer
+              </a>
+              <a href="#">
+                Academic Calendar
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+  <!-- Include Barba.js -->
+  <script src="https://unpkg.com/@barba/core" defer></script>
+  <!-- Include your transition script -->
+  <script src="../transition.js" defer></script>
+
+</body>
+
+</html>
